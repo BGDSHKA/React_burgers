@@ -1,7 +1,7 @@
 import React from 'react'
 import {
     ProductsContainer,
-    ProductsWrapper,
+    ProductWrapper,
     ProductsHeading,
     ProductTitle,
     ProductCard,
@@ -16,7 +16,7 @@ const Products = ({heading, data}) => {
     return (
         <ProductsContainer>
             <ProductsHeading>{heading}</ProductsHeading>
-            <ProductsWrapper>
+            <ProductWrapper>
                 {data.map((product, index) => {
                     return (
                         <ProductCard key={index}>
@@ -30,7 +30,7 @@ const Products = ({heading, data}) => {
                         </ProductCard>
                     )
                 })}
-            </ProductsWrapper>
+            </ProductWrapper>
         </ProductsContainer>
     )
 }
