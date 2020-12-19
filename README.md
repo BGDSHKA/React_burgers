@@ -1,3 +1,5 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Responsive SPA for burgers delivery** 
 
-**React + Styled Components responsive SPA for burgers delivery** 
+**Stack:**
+React
+Styled-Components
