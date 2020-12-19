@@ -1,5 +1,5 @@
 **Responsive SPA for burgers delivery** 
 
-**Stack:**
-React
+**Stack:** <br>
+React <br>
 Styled-Components
